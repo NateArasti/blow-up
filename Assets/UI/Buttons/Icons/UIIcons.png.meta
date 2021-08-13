@@ -301,27 +301,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unlocked
-      rect:
-        serializedVersion: 2
-        x: 532
-        y: 109
-        width: 64
-        height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 05374b6b3fad463b0800000000000000
-      internalID: -5520046502972198064
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Circle
       rect:
         serializedVersion: 2
@@ -443,27 +422,6 @@ TextureImporter:
       bones: []
       spriteID: 26a23918b0ff97110800000000000000
       internalID: 1259317995710392930
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mouse
-      rect:
-        serializedVersion: 2
-        x: 520
-        y: 17
-        width: 56
-        height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 040009af954834540800000000000000
-      internalID: 4990978334047338560
       vertices: []
       indices: 
       edges: []

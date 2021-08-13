@@ -5,6 +5,7 @@ public class InputSystem : MonoBehaviour
 {
 #pragma warning disable 414
     [SerializeField] private UnityEvent onExplosionStartPress;
+    [SerializeField] private UnityEvent onExplosionPressBreak;
     [SerializeField] private UnityEvent onExplosionEndPress;
     [SerializeField] private UnityEvent onZoom;
     [SerializeField] private UnityEvent<bool> onPause;
@@ -15,18 +16,24 @@ public class InputSystem : MonoBehaviour
 
     private bool isPaused;
 
-    //private bool hadSecondTouch;
-    //private int fingerId = -1;
+    private bool hadSecondTouch;
+    private int fingerId = -1;
 
     private void Update()
     {
-        var explosionActionState = CheckExplosionAction();
-        if (explosionActionState is true)
-            onExplosionStartPress.Invoke();
-        else if (explosionActionState is false) 
-            onExplosionEndPress.Invoke();
+        switch (CheckExplosionAction())
+        {
+            case true:
+                onExplosionStartPress.Invoke();
+                break;
+            case false:
+                onExplosionEndPress.Invoke();
+                break;
+            case null:
+                onExplosionPressBreak.Invoke();
+                break;
+        }
         if (CheckZoomAction()) onZoom.Invoke();
-        if (CheckPauseAction()) onPause.Invoke(isPaused);
     }
 
     public void UnPause()
@@ -36,62 +43,44 @@ public class InputSystem : MonoBehaviour
         onPause.Invoke(false);
     }
 
+    public void Pause()
+    {
+        isPaused = true;
+        onPause.Invoke(true);
+    }
+
     private bool? CheckExplosionAction()
     {
-        if (Time.time - lastExplode < CoolDown || isPaused) return null;
-        if (Input.GetMouseButtonDown(0)) return true;
-        if (Input.GetMouseButtonUp(0))
+        if (Time.time - lastExplode < CoolDown || isPaused || Input.touchCount == 0) return null;
+        if (fingerId == -1)
+            fingerId = Input.GetTouch(0).fingerId;
+        if (Input.GetTouch(fingerId).phase != TouchPhase.Ended)
+        {
+            if (!hadSecondTouch) hadSecondTouch = Input.touchCount == 2;
+            if (!hadSecondTouch) return true;
+        }
+
+        fingerId = -1;
+        if (hadSecondTouch)
+        {
+            hadSecondTouch = false;
+            return null;
+        }
+
+        if (Time.time - lastExplode > CoolDown)
         {
             lastExplode = Time.time;
             return false;
         }
+
         return null;
     }
 
     private bool CheckZoomAction()
     {
-        var result = Time.time - lastZoom > CoolDown && Input.GetMouseButtonUp(1) && !isPaused;
+        var result = Input.touchCount == 2 && Time.time - lastZoom > CoolDown;
         if (result) lastZoom = Time.time;
+        hadSecondTouch = result;
         return result;
     }
-
-    private bool CheckPauseAction()
-    {
-        if (!Input.GetKeyDown(KeyCode.Escape)) return false;
-        isPaused = !isPaused;
-        return true;
-    }
-
-
-    //Android Controls
-    //private bool ExplosionInput()
-    //{
-    //    if (Input.touchCount == 0) return false;
-    //    if (fingerId == -1)
-    //        fingerId = Input.GetTouch(0).fingerId;
-    //    if (Input.GetTouch(fingerId).phase != TouchPhase.Ended)
-    //    {
-    //        if (!hadSecondTouch) hadSecondTouch = Input.touchCount == 2;
-    //        return false;
-    //    }
-
-    //    fingerId = -1;
-    //    if (hadSecondTouch)
-    //    {
-    //        hadSecondTouch = false;
-    //        return false;
-    //    }
-
-    //    var result = Time.time - lastExplode > CoolDown;
-    //    if (result) lastExplode = Time.time;
-    //    return result;
-
-    //}
-
-    //private bool ZoomInput()
-    //{
-    //    var result = Input.touchCount == 2 && Time.time - lastZoom > CoolDown;
-    //    if (result) lastZoom = Time.time;
-    //    return result;
-    //}
 }
