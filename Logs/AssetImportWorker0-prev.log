@@ -1,0 +1,705 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1110; Version 2009; 64bit' Language: 'ru' Physical Memory: 7599 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\UnityFolder\2020.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Artum/Documents/GitHub/blow up
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65257
+Successfully changed project path to: C:/Users/Artum/Documents/GitHub/blow up
+C:/Users/Artum/Documents/GitHub/blow up
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 62.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.13f1 (71691879b7f5)
+[Subsystems] Discovering subsystems at path C:/Program Files/UnityFolder/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Artum/Documents/GitHub/blow up/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   27.21.14.6089
+Initialize mono
+Mono path[0] = 'C:/Program Files/UnityFolder/2020.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/UnityFolder/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/UnityFolder/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/UnityFolder/2020.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/UnityFolder/2020.3.13f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/UnityFolder/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/UnityFolder/2020.3.13f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.004080 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 75.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.603 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005207 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 46.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.125 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2388 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.7 MB.
+System memory in use after: 126.8 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2845.
+Total: 2.837500 ms (FindLiveObjects: 0.323600 ms CreateObjectMapping: 0.070400 ms MarkObjects: 2.280500 ms  DeleteObjects: 0.160600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3759a54f1e556197c089da8fc9efa5') in 0.125781 seconds 
+  Import took 0.138409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.647694 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ddf0af5b94e2b2f1388c387fdffe13') in 0.012174 seconds 
+  Import took 0.024015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.716153 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1b5482b5b615c652559a89562e9dc9') in 0.011218 seconds 
+  Import took 0.023385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.204917 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fcf8284f51f9e512d06a15d367dafad') in 0.010855 seconds 
+  Import took 0.021677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.647831 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14b8086bb8f9df96ff5486310fc1f04') in 0.012442 seconds 
+  Import took 0.022218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.487499 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04fd7a47d8c02f892c2cc25ca3fe9b0d') in 0.011193 seconds 
+  Import took 0.022901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.637729 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba71b9b034b2e0f70c8773e05e0faea') in 0.016448 seconds 
+  Import took 0.026488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.072987 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e8c29e20d635b5353efa177064775a') in 0.017915 seconds 
+  Import took 0.028668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.231049 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0d530cfefdb661f67662d4b0d60ded') in 0.012167 seconds 
+  Import took 0.024139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.678933 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91caae6f24777706394ce82530abfa4a') in 0.012890 seconds 
+  Import took 0.023924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.019665 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db93c0996c247ee13f5584bf755c87f') in 0.011161 seconds 
+  Import took 0.023641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.674668 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e69cf1771579e21432cd09d2c772c7c') in 0.013599 seconds 
+  Import took 0.022819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.586507 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd662944f4944f4ea15e6af8d54e3b4e3') in 0.012039 seconds 
+  Import took 0.021320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.346773 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126b71563ff69b55dc4e1ab88302fd23') in 0.011366 seconds 
+  Import took 0.023419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.221302 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9392c1618ea92743a48de581688b53') in 0.016871 seconds 
+  Import took 0.026944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.676879 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd1f532de848d34f5e8f5b92e7ae09c') in 0.011713 seconds 
+  Import took 0.021898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.229189 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58924cc1b580d8d2a980ed2a0bc6282') in 0.011974 seconds 
+  Import took 0.023287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.694465 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2637b52cfa2695c8aa8f70b2d01a98fd') in 0.011242 seconds 
+  Import took 0.021521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.769081 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918e026abc242f0aab587b8d91fc1226') in 0.011028 seconds 
+  Import took 0.022285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.972645 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d4c4d7be77d853ca38f83e78e99ffe') in 0.011859 seconds 
+  Import took 0.022559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.015285 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5644a582df742914261b8478040c07f') in 0.015139 seconds 
+  Import took 0.020520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.505258 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d27c67e3ceb3dc4321b129e403b0323') in 0.012830 seconds 
+  Import took 0.022335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.435732 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da2b9f3e229f01b4e5c41de4bb4cfba') in 0.017025 seconds 
+  Import took 0.025372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.461384 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f937b878fc73155f01e049b9d9b818') in 0.010284 seconds 
+  Import took 0.019814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.695600 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a5ea355a50ea6301417e2c2fa34667') in 0.010982 seconds 
+  Import took 0.020146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.875329 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b66923824247606ecbb8246105453d') in 0.012476 seconds 
+  Import took 0.020963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.907087 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02954d35ca7f0ba69db2999d72bfe95e') in 0.011883 seconds 
+  Import took 0.022322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.155218 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86c2212195eb2edb9fdbe2d6ba00e80') in 0.011612 seconds 
+  Import took 0.019741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.424329 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6556fac8b4d03e9cd1dd9401183c6a5') in 0.012234 seconds 
+  Import took 0.022148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.447668 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae392bf972dd5728c2aaffb319b7661f') in 0.011492 seconds 
+  Import took 0.018885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.778374 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99aaddaf6b5afeb15883d29d00d0b7c1') in 0.010671 seconds 
+  Import took 0.018273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.082582 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5875507078c7f63b0576ae6a55e943') in 0.011799 seconds 
+  Import took 0.019128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.871181 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcffaea86e8feb796c302392b8b75843') in 0.011137 seconds 
+  Import took 0.020875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.117298 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18b21692288291e0846f34b15bb822e') in 0.010949 seconds 
+  Import took 0.020797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.819062 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1289cdb94a3d9eae56c61e243f48c1') in 0.012036 seconds 
+  Import took 0.021128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.275432 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a753bff35f9c72c59811d77e705ab55a') in 0.011007 seconds 
+  Import took 0.020138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.674835 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac0918a5625954df0d26e0ccdea69aa') in 0.011411 seconds 
+  Import took 0.019592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.047251 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2b5460c9850b9da0826393200d812e') in 0.015990 seconds 
+  Import took 0.024444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.684943 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffaab4452988b8fb81350fd070b693ec') in 0.011299 seconds 
+  Import took 0.019959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.505386 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7712e369555e3d981afe8a276d21f7ea') in 0.010450 seconds 
+  Import took 0.018426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.455412 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54e5bacc9b4478589da6d2cda382b1a') in 0.011579 seconds 
+  Import took 0.019578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.918459 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78b6a3f5292a6c1015fe53f09bbab88') in 0.011681 seconds 
+  Import took 0.022409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.820012 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde9f684bb0d005a325803bc1403a77c') in 0.011737 seconds 
+  Import took 0.020442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.842673 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e13485d2a714ae022cc51bd75ac5266') in 0.011515 seconds 
+  Import took 0.022143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.612749 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e8d4e97401797659b81d246f7fa484') in 0.011638 seconds 
+  Import took 0.020198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.151533 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46f003185aeef77b16c96dec53f5374') in 0.011496 seconds 
+  Import took 0.019858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.254488 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9480b144947d34541196c04cd795ac0c') in 0.010879 seconds 
+  Import took 0.019807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.840393 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778fddc247cef740fffb71b4a43454d0') in 0.010575 seconds 
+  Import took 0.018253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.246326 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78eea44b952fad1f8612ed2523cdbaa') in 0.012060 seconds 
+  Import took 0.020596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.555695 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc8252d418eadcd28cb99543f42807c') in 0.010967 seconds 
+  Import took 0.019617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.224284 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c76c24a9de5cdb931158831127b0ea') in 0.011315 seconds 
+  Import took 0.020765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.729411 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046013e73326add5565754d2043a9915') in 0.011197 seconds 
+  Import took 0.019394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.077724 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1de48a878faabba67ee50660fed8705') in 0.011413 seconds 
+  Import took 0.021624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.673058 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d85565266dcb4fe23f56a1e395c176') in 0.011694 seconds 
+  Import took 0.019981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.514735 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ad66ec0d9811b1bfd3018d19efe4a8') in 0.011370 seconds 
+  Import took 0.018804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.309822 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f187910955fcbb4182d4fe2494d57a') in 0.011104 seconds 
+  Import took 0.017077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.970396 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c14c1177bfbcdd9fb3988f4348aca5') in 0.015986 seconds 
+  Import took 0.022769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.711651 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88612f82e1b7d4748d2388d209116fa') in 0.011766 seconds 
+  Import took 0.017734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.080683 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bde1608c0fba2462ba0c499b57b28b') in 0.011355 seconds 
+  Import took 0.018529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.042575 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ef5d6a795a31d3d9ffeb56a443f23d') in 0.016783 seconds 
+  Import took 0.022770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.835974 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e412176648e1f0492ccd117a58119542') in 0.011768 seconds 
+  Import took 0.017930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.308152 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb73ca8153ba60748e56d80007df405b') in 0.014702 seconds 
+  Import took 0.021156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.619290 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22da5052d1ef3930d425881df0759583') in 0.011575 seconds 
+  Import took 0.018356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.829483 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdeb0c462aa46b1b1d7d5956236e3668') in 0.015912 seconds 
+  Import took 0.022230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.125137 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd0fcaef60138f2d8fcc718ef45fba2') in 0.016014 seconds 
+  Import took 0.022500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.867901 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2e0d3f422624d0c344937d284b6da3') in 0.016637 seconds 
+  Import took 0.022661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.671250 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573d1c235ac3de6e45c4113360911091') in 0.010216 seconds 
+  Import took 0.016589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.036338 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8815a2708cba87b056c73433cffae941') in 0.011252 seconds 
+  Import took 0.018095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.818657 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4b97d91b3f00d60e4e1977c73f44ac') in 0.011182 seconds 
+  Import took 0.017661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.334753 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768cafab6c2ca0656e493530239af05f') in 0.011153 seconds 
+  Import took 0.018584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.714615 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf68fd71abb74cf3bcc84ceac5d4b621') in 0.015881 seconds 
+  Import took 0.022039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.090794 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609e0572b0bd7bf0bda71ba1e163903e') in 0.010540 seconds 
+  Import took 0.016293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.625676 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b2ee2e339f66b17bef3d90fb40f54c') in 0.017205 seconds 
+  Import took 0.023601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.080556 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b7647238e8bd90d5bf145e96171bc0') in 0.012428 seconds 
+  Import took 0.017968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.879914 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25af1bac1a8c5036b2e39664015ac3a7') in 0.011944 seconds 
+  Import took 0.017785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.686992 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dcfa1f2ceb571f939d553bde4a80008') in 0.011954 seconds 
+  Import took 0.018673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.389335 seconds.
+  path: Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab
+  artifactKey: Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/BlackDot/BlackDot.prefab using Guid(1f5dbfeba526b8b499f931fb0fa04610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c79466022692a374448106b2d42087') in 0.011092 seconds 
+  Import took 0.016947 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -1,0 +1,582 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1110; Version 2009; 64bit' Language: 'ru' Physical Memory: 7599 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\UnityFolder\2020.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Artum/Documents/GitHub/blow up
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63931
+Successfully changed project path to: C:/Users/Artum/Documents/GitHub/blow up
+C:/Users/Artum/Documents/GitHub/blow up
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 52.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.13f1 (71691879b7f5)
+[Subsystems] Discovering subsystems at path C:/Program Files/UnityFolder/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Artum/Documents/GitHub/blow up/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   27.21.14.6089
+Initialize mono
+Mono path[0] = 'C:/Program Files/UnityFolder/2020.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/UnityFolder/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/UnityFolder/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/UnityFolder/2020.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/UnityFolder/2020.3.13f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/UnityFolder/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/UnityFolder/2020.3.13f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.005296 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 71.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.330 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005681 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 49.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.183 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2388 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.7 MB.
+System memory in use after: 126.8 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2845.
+Total: 2.514500 ms (FindLiveObjects: 0.318700 ms CreateObjectMapping: 0.071500 ms MarkObjects: 1.980700 ms  DeleteObjects: 0.141800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd449531f8c2195143f6847fbd1b12108') in 0.157418 seconds 
+  Import took 0.165166 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004861 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.078 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2354 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.1 MB.
+System memory in use after: 127.2 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2855.
+Total: 3.191700 ms (FindLiveObjects: 0.363400 ms CreateObjectMapping: 0.081500 ms MarkObjects: 2.611700 ms  DeleteObjects: 0.133900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 82.899848 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c336f89d2f3d9df3cf68737e4ad7200a') in 0.067732 seconds 
+  Import took 0.074199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.407131 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90050409feeba951c704903beeb3a527') in 0.016856 seconds 
+  Import took 0.050040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.630435 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e13685ae81a719ceadcf66ca3f541a') in 0.011540 seconds 
+  Import took 0.018626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.423592 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7669e02fed193d29699e85ab53e69f') in 0.010561 seconds 
+  Import took 0.018413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.261028 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6ef65ab62aaeeda69db9911fd6e9ed') in 0.011392 seconds 
+  Import took 0.018592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.344885 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16fe534bac9496ff070cc7abd4b16bd') in 0.012268 seconds 
+  Import took 0.019679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.432444 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c99b7fb7c7c509a5a29fbf1bd93348') in 0.011991 seconds 
+  Import took 0.021250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.439195 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1fc2e7cb1d7f46f5bcee7123da6894') in 0.011465 seconds 
+  Import took 0.019071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.078585 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f24f2598123d97ac318bc41dd6b91c') in 0.015019 seconds 
+  Import took 0.022179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.180542 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76003dede780ce84233ca5c8d0bcda0') in 0.011680 seconds 
+  Import took 0.018513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.116974 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601589ccbbb8629f9e8608ebc95188d0') in 0.010828 seconds 
+  Import took 0.018040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.358979 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465e39df58c65b6f2f4f16f662c76f9a') in 0.011303 seconds 
+  Import took 0.018075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.986247 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b7726c850192d0126306b7c47557e3') in 0.010669 seconds 
+  Import took 0.017526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.413724 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9718c6bf205d23033a0eb10126d79838') in 0.013469 seconds 
+  Import took 0.019574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.473523 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74cba7b25aaa971b7dd1c6c7494d007a') in 0.010910 seconds 
+  Import took 0.018276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.813618 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c1ee8e9fc32d91d921b88e9f329509') in 0.012966 seconds 
+  Import took 0.019743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.878252 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae066ae66637fcf832ae5cc22a6164f9') in 0.013031 seconds 
+  Import took 0.020940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.941264 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e94fd557027405579b5d4c717446ca7') in 0.011416 seconds 
+  Import took 0.018298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.827914 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c11c6e7c3088dd127df97cb8a94da5') in 0.011583 seconds 
+  Import took 0.018466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.886858 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c773c1a43440a0737c6b8d1c220e9a2d') in 0.010439 seconds 
+  Import took 0.017113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.025907 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0fd6c879d3dbfc6d30c55ee4abbf6d') in 0.012370 seconds 
+  Import took 0.019337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.178522 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779b198fb3e01c792136d55a828c5777') in 0.010890 seconds 
+  Import took 0.017361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.323624 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa9fddee2ccb02ea255d75c7a7f8d5b') in 0.013458 seconds 
+  Import took 0.020877 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004529 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.053 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2354 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.4 MB.
+System memory in use after: 127.5 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2859.
+Total: 2.730200 ms (FindLiveObjects: 0.346700 ms CreateObjectMapping: 0.125800 ms MarkObjects: 2.114000 ms  DeleteObjects: 0.141500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 80.561966 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e37a6cbcf0a63028a2052682c48fb7') in 0.064981 seconds 
+  Import took 0.072115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.319683 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21114807fbcde0db7266b49204cd558') in 0.012103 seconds 
+  Import took 0.017950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.458691 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe38d89131271abcbcf646eb3dc0bb9') in 0.010943 seconds 
+  Import took 0.019023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.605397 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a298cbf74940f3877a1540a7c0ee1246') in 0.010941 seconds 
+  Import took 0.017959 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005174 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.989 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2354 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.4 MB.
+System memory in use after: 127.5 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2863.
+Total: 2.710300 ms (FindLiveObjects: 0.399800 ms CreateObjectMapping: 0.118400 ms MarkObjects: 2.052200 ms  DeleteObjects: 0.138200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 248.003377 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a2ab449ea4fddf85bfb397b1f01be0') in 0.057554 seconds 
+  Import took 0.064881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.487343 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33d04afe5cc6bb3b8e004377d576ba3') in 0.012109 seconds 
+  Import took 0.019457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.927165 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b209711ede7be68b68a1c4f31065ea9') in 0.011857 seconds 
+  Import took 0.018849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.935595 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f012f0514f20b1a76fd94dc065557db6') in 0.013988 seconds 
+  Import took 0.021160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.280316 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd6d41679a40c6af765a28df921b67f') in 0.012095 seconds 
+  Import took 0.019083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.711361 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e200bf4907e185ebc8e0a2e951e95cc') in 0.012174 seconds 
+  Import took 0.019274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.257607 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1006512baa18995a5b5c41fcaf5b67da') in 0.011727 seconds 
+  Import took 0.018578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.196196 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3da369905b0dd05470198ea0ad94cec') in 0.011925 seconds 
+  Import took 0.018593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.516145 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf642fc553dadd33bb7c52ade811001') in 0.011343 seconds 
+  Import took 0.017686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.904042 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3582b39942d1b4f96501a24a2983f6a6') in 0.010808 seconds 
+  Import took 0.018332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.064796 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98cd050709dea8a5bad15a5e2f73df48') in 0.010760 seconds 
+  Import took 0.017052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.371122 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce8ac49f0145591a58c598fc9e6afa7') in 0.011281 seconds 
+  Import took 0.018441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.825164 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28fc90d793222a347ebe86b6a9bd4702') in 0.012328 seconds 
+  Import took 0.018843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.355219 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84333cd3da62bf45f1439566e6d086d6') in 0.013861 seconds 
+  Import took 0.021324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.509076 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b512cae3f679664319593f12709867cc') in 0.011366 seconds 
+  Import took 0.018878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.066396 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa656f50cb5f6e435916409560c79909') in 0.011292 seconds 
+  Import took 0.017918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.951183 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8de52355b216090d8fb18e2f1babae7') in 0.011655 seconds 
+  Import took 0.017998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.026352 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f468d33a91e355fb0d7e3451f3c1bc08') in 0.011757 seconds 
+  Import took 0.018649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.195408 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865ff5f8c1f4f73b8319520ca3529fe4') in 0.011917 seconds 
+  Import took 0.019105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.220600 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9e3ff464c1865d48300fe858ed8461') in 0.013454 seconds 
+  Import took 0.019932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.017256 seconds.
+  path: Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab
+  artifactKey: Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/EnemyPrefabs/Bosses/Boss 2/Boss_2.prefab using Guid(81aa01361d040d84a9c913e0fe51d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260631d893a460302c3503afa9f399fa') in 0.016692 seconds 
+  Import took 0.022959 seconds .
+
