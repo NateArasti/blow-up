@@ -16,24 +16,21 @@ public class InputSystem : MonoBehaviour
 
     private bool isPaused;
 
-    private bool hadSecondTouch;
-    private int fingerId = -1;
-
     private void Update()
     {
-        switch (CheckExplosionAction())
+        if(isPaused) return;
+        if(Input.GetMouseButtonDown(0)) onExplosionStartPress.Invoke();
+        else if (Input.GetMouseButtonUp(0) && Time.time - lastExplode > CoolDown && Time.time - lastZoom > CoolDown)
         {
-            case true:
-                onExplosionStartPress.Invoke();
-                break;
-            case false:
-                onExplosionEndPress.Invoke();
-                break;
-            case null:
-                onExplosionPressBreak.Invoke();
-                break;
+            onExplosionEndPress.Invoke();
+            lastExplode = Time.time;
         }
-        if (CheckZoomAction()) onZoom.Invoke();
+        else if (Input.GetMouseButtonDown(1) && Time.time - lastZoom > CoolDown)
+        {
+            onExplosionPressBreak.Invoke();
+            onZoom.Invoke();
+            lastZoom = Time.time;
+        }
     }
 
     public void UnPause()
@@ -47,40 +44,5 @@ public class InputSystem : MonoBehaviour
     {
         isPaused = true;
         onPause.Invoke(true);
-    }
-
-    private bool? CheckExplosionAction()
-    {
-        if (Time.time - lastExplode < CoolDown || isPaused || Input.touchCount == 0) return null;
-        if (fingerId == -1)
-            fingerId = Input.GetTouch(0).fingerId;
-        if (Input.GetTouch(fingerId).phase != TouchPhase.Ended)
-        {
-            if (!hadSecondTouch) hadSecondTouch = Input.touchCount == 2;
-            if (!hadSecondTouch) return true;
-        }
-
-        fingerId = -1;
-        if (hadSecondTouch)
-        {
-            hadSecondTouch = false;
-            return null;
-        }
-
-        if (Time.time - lastExplode > CoolDown)
-        {
-            lastExplode = Time.time;
-            return false;
-        }
-
-        return null;
-    }
-
-    private bool CheckZoomAction()
-    {
-        var result = Input.touchCount == 2 && Time.time - lastZoom > CoolDown;
-        if (result) lastZoom = Time.time;
-        hadSecondTouch = result;
-        return result;
     }
 }
