@@ -14,7 +14,7 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: ArastiGames
   productName: blow up
-  defaultCursor: {fileID: 2800000, guid: 4984167e8e6661d46997c75f1cbcc0ea, type: 3}
+  defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 1}
   m_ShowUnitySplashScreen: 1
