@@ -16,7 +16,7 @@ GameObject:
   m_TagString: LevelEnvironment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7746271890901368703
 Transform:
@@ -273,7 +273,7 @@ GameObject:
   m_TagString: LevelEnvironment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7255815182260363653
 Transform:
@@ -549,7 +549,7 @@ GameObject:
   m_TagString: LevelEnvironment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8364564428106917104
 Transform:
@@ -658,7 +658,7 @@ GameObject:
   m_TagString: LevelEnvironment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5943990376785712240
 Transform:
@@ -767,7 +767,7 @@ GameObject:
   m_TagString: LevelEnvironment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5330357752010027752
 Transform:
@@ -876,7 +876,7 @@ GameObject:
   m_TagString: LevelEnvironment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2536800461129021396
 Transform:
@@ -1059,7 +1059,7 @@ GameObject:
   m_TagString: LevelEnvironment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6490180889801926312
 Transform:
@@ -1314,7 +1314,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4096036479655526469
 Transform:
@@ -1438,7 +1438,7 @@ GameObject:
   m_TagString: LevelEnvironment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &815495409814484046
 Transform:
@@ -1547,7 +1547,7 @@ GameObject:
   m_TagString: LevelEnvironment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9112620060836364578
 Transform:
@@ -1878,7 +1878,7 @@ GameObject:
   m_TagString: LevelEnvironment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1461039978617934584
 Transform:
@@ -1987,7 +1987,7 @@ GameObject:
   m_TagString: LevelEnvironment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6545868392095959953
 Transform:
@@ -2096,7 +2096,7 @@ GameObject:
   m_TagString: LevelEnvironment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5313014514527241640
 Transform:
@@ -2205,7 +2205,7 @@ GameObject:
   m_TagString: LevelEnvironment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8347144870519191868
 Transform:
@@ -2314,7 +2314,7 @@ GameObject:
   m_TagString: LevelEnvironment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4007720569757475285
 Transform:
@@ -2542,7 +2542,7 @@ GameObject:
   m_TagString: LevelEnvironment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1052691051098918853
 Transform:
@@ -2725,7 +2725,7 @@ GameObject:
   m_TagString: LevelEnvironment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3543415849589617098
 Transform:
@@ -2834,7 +2834,7 @@ GameObject:
   m_TagString: LevelEnvironment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3734050469314211889
 Transform:
@@ -2943,7 +2943,7 @@ GameObject:
   m_TagString: LevelEnvironment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6702706158318251731
 Transform:
