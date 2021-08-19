@@ -5,6 +5,7 @@ using UnityEngine;
 public class CircleAreaEditor : Editor
 {
     [DrawGizmo(GizmoType.InSelectionHierarchy | GizmoType.Selected | GizmoType.Pickable)]
+
     public static void RenderCustomGizmo(CircleArea area, GizmoType gizmo)
     {
         Gizmos.color = Color.red;

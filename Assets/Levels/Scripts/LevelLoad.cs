@@ -10,7 +10,7 @@ public class LevelLoad : MonoBehaviour, IUnityAdsListener
     private Action actionAfterAd;
 
     private static float _lastAdShowTime;
-    private static float _adDelta = 45;
+    private const float ADDelta = 50;
 
     [SerializeField] private int levelCount;
 
@@ -20,7 +20,7 @@ public class LevelLoad : MonoBehaviour, IUnityAdsListener
     {
         if (Advertisement.isSupported)
         {
-            Advertisement.Initialize(AndroidId, true);
+            Advertisement.Initialize(AndroidId, false);
             Advertisement.AddListener(this);
         }
 
@@ -39,7 +39,7 @@ public class LevelLoad : MonoBehaviour, IUnityAdsListener
 
     public void LoadLevel()
     {
-        if(Time.time - _lastAdShowTime > _adDelta)
+        if(Time.time - _lastAdShowTime > ADDelta)
         {
             _lastAdShowTime = Time.time;
             ShowAd(() => SceneManager.LoadScene("Game"));
@@ -51,7 +51,7 @@ public class LevelLoad : MonoBehaviour, IUnityAdsListener
     public void LoadNextLevel()
     {
         LevelSystem.CurrentLevelIndex += 1;
-        if (Time.time - _lastAdShowTime > _adDelta)
+        if (Time.time - _lastAdShowTime > ADDelta)
         {
             _lastAdShowTime = Time.time;
             ShowAd(() => SceneManager.LoadScene("Game"));

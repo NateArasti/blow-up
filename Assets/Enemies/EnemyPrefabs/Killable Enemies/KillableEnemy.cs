@@ -17,6 +17,15 @@ public class KillableEnemy : MonoBehaviour
 
     public int Health => hitsToGetDestroyed;
 
+    private SpriteRenderer spriteRenderer;
+    private Color startColor;
+
+    private void Start()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        startColor = spriteRenderer.color;
+    }
+
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player"))
@@ -37,8 +46,6 @@ public class KillableEnemy : MonoBehaviour
 
     private IEnumerator OnHit()
     {
-        var spriteRenderer = GetComponent<SpriteRenderer>();
-        var currentColor = spriteRenderer.color;
         var endColor = Color.white;
         const float smoothness = 10f;
         var startTime = Time.time;
@@ -50,10 +57,10 @@ public class KillableEnemy : MonoBehaviour
         startTime = Time.time;
         while (Time.time - startTime < 0.1f)
         {
-            spriteRenderer.color = Color.Lerp(spriteRenderer.color, currentColor, Time.deltaTime * smoothness);
+            spriteRenderer.color = Color.Lerp(spriteRenderer.color, startColor, Time.deltaTime * smoothness);
             yield return new WaitForEndOfFrame();
         }
 
-        spriteRenderer.color = currentColor;
+        spriteRenderer.color = startColor;
     }
 }

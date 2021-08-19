@@ -5287,7 +5287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  hitsToGetDestroyed: 20
+  hitsToGetDestroyed: 15
   onDead:
     m_PersistentCalls:
       m_Calls:
