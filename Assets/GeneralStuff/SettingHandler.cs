@@ -11,7 +11,7 @@ public class SettingHandler : MonoBehaviour
 
     private void Start()
     {
-        currentFloatState = PlayerPrefs.GetFloat(settingName, 0.1f);
+        currentFloatState = PlayerPrefs.GetFloat(settingName, 0.5f);
         currentBoolState = currentFloatState != 0;
         onFloatStateChange.Invoke(currentFloatState);
         onBoolStateChange.Invoke(currentBoolState);
