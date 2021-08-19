@@ -5,5 +5,5 @@ public class CircleArea : Area
     public float Radius => radius;
     [SerializeField] private float radius;
 
-    public override Vector2 GetRandomPositionInArea() => SpawnCenter + Random.insideUnitCircle * Radius;
+    protected override Vector2 GetRandomPosition() => Random.insideUnitCircle * Radius;
 }

@@ -6,6 +6,6 @@ public class RectangleArea : Area
     public float HalfHeight => 0.5f * height;
     [SerializeField] private float width, height;
 
-    public override Vector2 GetRandomPositionInArea() =>
-        SpawnCenter + new Vector2(Random.Range(-HalfWidth, HalfWidth), Random.Range(-HalfHeight, HalfHeight));
+    protected override Vector2 GetRandomPosition() =>
+        new Vector2(Random.Range(-HalfWidth, HalfWidth), Random.Range(-HalfHeight, HalfHeight));
 }
