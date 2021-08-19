@@ -5287,7 +5287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  hitsToGetDestroyed: 20
+  hitsToGetDestroyed: 15
   onDead:
     m_PersistentCalls:
       m_Calls:
@@ -5498,7 +5498,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 84180c545f172814c958c4f9e78aed1b, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 0.1
   Loop: 0
   Mute: 0
