@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public abstract class Area : MonoBehaviour
@@ -19,9 +18,9 @@ public abstract class Area : MonoBehaviour
 
     public Vector2 RotatePositionAroundCenter(Vector2 position)
     {
-        var angle = this.angle ?? transform.eulerAngles.z * Mathf.PI / 180;
-        var cos = Mathf.Cos(angle);
-        var sin = Mathf.Sin(angle);
+        var newAngle = this.angle ?? transform.eulerAngles.z * Mathf.PI / 180;
+        var cos = Mathf.Cos(newAngle);
+        var sin = Mathf.Sin(newAngle);
         return new Vector2(position.x * cos - position.y * sin,
             position.x * sin + position.y * cos);
     }

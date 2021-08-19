@@ -10,7 +10,7 @@ public class LevelLoad : MonoBehaviour, IUnityAdsListener
     private Action actionAfterAd;
 
     private static float _lastAdShowTime;
-    private const float ADDelta = 50;
+    private const float ADDelta = 60;
 
     [SerializeField] private int levelCount;
 
