@@ -9,8 +9,8 @@ public class LevelLoad : MonoBehaviour, IUnityAdsListener
     private const string AndroidId = "4262437";
     private Action actionAfterAd;
 
-    private static float _lastAdShowTime;
-    private const float ADDelta = 60;
+    private static float _lastAdShowTime = -30;
+    private const float ADDelta = 15;
 
     [SerializeField] private int levelCount;
 
@@ -51,12 +51,6 @@ public class LevelLoad : MonoBehaviour, IUnityAdsListener
     public void LoadNextLevel()
     {
         LevelSystem.CurrentLevelIndex += 1;
-        if (Time.time - _lastAdShowTime > ADDelta)
-        {
-            _lastAdShowTime = Time.time;
-            ShowAd(() => SceneManager.LoadScene("Game"));
-            return;
-        }
         SceneManager.LoadScene("Game");
     }
 
